@@ -19,6 +19,15 @@ Every theme ships with:
 The whole bundle lives in this one repository, but every agent is a separate,
 independently installable theme.
 
+## Short video
+
+A 15-second 9:16 montage (1080×1920, silent) for Shorts, Reels and TikTok:
+
+[![Watch the short](assets/valorant-themes-short-poster.jpg)](assets/valorant-themes-short.mp4)
+
+[Download / play `valorant-themes-short.mp4`](assets/valorant-themes-short.mp4) ·
+re-render with `python3 tools/make_short.py`
+
 ---
 
 ## Requirements
@@ -183,6 +192,7 @@ python3 tools/fetch-assets.py        # re-download agent renders and fonts
 python3 tools/build.py                # regenerate palettes and all wallpapers
 python3 tools/build.py --no-walls     # regenerate colours only (fast)
 python3 tools/build.py --only jett    # one agent
+python3 tools/make_short.py            # rebuild the 9:16 promo short
 ```
 
 Agent metadata lives in the `AGENTS` table at the top of `tools/build.py`. Add a row
