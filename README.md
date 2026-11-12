@@ -13,7 +13,11 @@ Every theme ships with:
   Neovim, VS Code, btop and the rest of the themed apps;
 - a branded **3840×2160** signature wallpaper named after the agent and its two key
   abilities;
+- an **8-second seamless animated wallpaper** (2560×1440, silent H.264) for the
+  background rotation;
 - the collected agent artwork, re-encoded as high-quality WebP at up to 4K;
+- a theme switcher **preview card**, a per-agent `shell.toml` (bar accent and
+  Hyprland border gradient), and a branded **Plymouth boot logo**;
 - a matching Yaru icon theme.
 
 The whole bundle lives in this one repository, but every agent is a separate,
@@ -156,17 +160,27 @@ omarchy theme bg next      # cycle that agent's wallpapers
 ```
 themes/valorant-jett/
 ├── colors.toml                  # the palette Omarchy applies
+├── shell.toml                   # bar accent + Hyprland border gradient
 ├── icons.theme                  # matching Yaru icon variant
+├── preview.jpg                  # theme switcher card (1365x768)
+├── unlock.png                   # Plymouth boot logo (800x188)
+├── preview-unlock.png           # Plymouth picker mock (1920x1080)
 └── backgrounds/
     ├── 0-jett-signature.webp    # branded 3840x2160 signature wallpaper
     ├── 1-jett1.webp             # collected artwork, up to 4K
     ├── 2-jett2.webp
-    └── ...
+    ├── ...
+    └── 9-jett-live.mp4          # 8s seamless animated wallpaper (1440p)
 ```
 
 The `0-` wallpaper is always the signature piece, so a freshly applied theme
 immediately shows the agent and its abilities. Extra backgrounds can be cycled with
-`omarchy theme bg next`.
+`omarchy theme bg next`; the `9-…-live.mp4` loop sits at the end of the rotation.
+
+`shell.toml` only overrides the identity-specific keys (bar active colour, border
+gradient, focus/hover chrome) — Omarchy derives everything else from `colors.toml`.
+`preview.jpg` is what the theme switcher shows; `unlock.png` is used as the Plymouth
+boot logo when the theme is applied to the boot splash.
 
 ## How the colours are chosen
 
@@ -192,6 +206,8 @@ python3 tools/fetch-assets.py        # re-download agent renders and fonts
 python3 tools/build.py                # regenerate palettes and all wallpapers
 python3 tools/build.py --no-walls     # regenerate colours only (fast)
 python3 tools/build.py --only jett    # one agent
+python3 tools/identity.py              # preview cards, shell.toml, boot assets
+python3 tools/make_live.py             # 8s animated wallpaper per agent
 python3 tools/make_short.py            # rebuild the 9:16 promo short
 ```
 

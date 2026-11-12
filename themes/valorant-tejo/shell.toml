@@ -1,0 +1,19 @@
+# Agent-accent overrides; Omarchy fills every other key from colors.toml.
+
+[bar]
+active           = "#E0A84E"
+background       = "#12100A"
+background-alpha = 0.94
+text             = "#E8E5E2"
+
+[hyprland]
+active-border            = "#E0A84E #3FBFC0 90deg"
+active-border-foreground = "#E8E5E2"
+
+[controls]
+hover-cursor-border = "#E0A84E"
+hover-cursor-color  = "#E8E5E2"
+focus-border        = "#E0A84E"
+focus-color         = "#E8E5E2"
+selected-color      = "#E8E5E2"
+selected-border     = "#E0A84E"
