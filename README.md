@@ -13,8 +13,6 @@ Every theme ships with:
   Neovim, VS Code, btop and the rest of the themed apps;
 - a branded **3840×2160** signature wallpaper named after the agent and its two key
   abilities;
-- an **8-second seamless animated wallpaper** (2560×1440, silent H.264) for the
-  background rotation;
 - the collected agent artwork, re-encoded as high-quality WebP at up to 4K;
 - a theme switcher **preview card**, a per-agent `shell.toml` (bar accent and
   Hyprland border gradient), and a branded **Plymouth boot logo**;
@@ -169,13 +167,12 @@ themes/valorant-jett/
     ├── 0-jett-signature.webp    # branded 3840x2160 signature wallpaper
     ├── 1-jett1.webp             # collected artwork, up to 4K
     ├── 2-jett2.webp
-    ├── ...
-    └── 9-jett-live.mp4          # 8s seamless animated wallpaper (1440p)
+    └── ...
 ```
 
 The `0-` wallpaper is always the signature piece, so a freshly applied theme
 immediately shows the agent and its abilities. Extra backgrounds can be cycled with
-`omarchy theme bg next`; the `9-…-live.mp4` loop sits at the end of the rotation.
+`omarchy theme bg next`.
 
 `shell.toml` only overrides the identity-specific keys (bar active colour, border
 gradient, focus/hover chrome) — Omarchy derives everything else from `colors.toml`.
@@ -207,7 +204,6 @@ python3 tools/build.py                # regenerate palettes and all wallpapers
 python3 tools/build.py --no-walls     # regenerate colours only (fast)
 python3 tools/build.py --only jett    # one agent
 python3 tools/identity.py              # preview cards, shell.toml, boot assets
-python3 tools/make_live.py             # 8s animated wallpaper per agent
 python3 tools/make_short.py            # rebuild the 9:16 promo short
 ```
 
