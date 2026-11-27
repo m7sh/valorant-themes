@@ -6,11 +6,12 @@
     "role": "Controller",
     "origin": "GHANA",
     "number": "16",
+    "mode": "dark",
     "signature": "Astral Form",
     "ultimate": "Cosmic Divide",
-    "accent": "#A97BFF",
-    "accent2": "#FFD37A",
-    "background": "#0D0A1A"
+    "accent": "#B48CFF",
+    "accent2": "#FFD470",
+    "background": "#0A0818"
   },
   {
     "slug": "breach",
@@ -19,11 +20,12 @@
     "role": "Initiator",
     "origin": "SWEDEN",
     "number": "13",
+    "mode": "dark",
     "signature": "Fault Line",
     "ultimate": "Rolling Thunder",
     "accent": "#F59E0B",
-    "accent2": "#FDE047",
-    "background": "#140F08"
+    "accent2": "#FFE066",
+    "background": "#16110C"
   },
   {
     "slug": "brimstone",
@@ -32,11 +34,12 @@
     "role": "Controller",
     "origin": "UNITED STATES",
     "number": "01",
+    "mode": "dark",
     "signature": "Sky Smoke",
     "ultimate": "Orbital Strike",
     "accent": "#FF6B2C",
-    "accent2": "#FFC15E",
-    "background": "#130C09"
+    "accent2": "#F4C462",
+    "background": "#11130E"
   },
   {
     "slug": "chamber",
@@ -45,11 +48,12 @@
     "role": "Sentinel",
     "origin": "FRANCE",
     "number": "18",
+    "mode": "dark",
     "signature": "Rendezvous",
     "ultimate": "Tour De Force",
-    "accent": "#E8C46A",
-    "accent2": "#4FD1C5",
-    "background": "#0A1014"
+    "accent": "#ECC86E",
+    "accent2": "#38D9C0",
+    "background": "#0C1018"
   },
   {
     "slug": "clove",
@@ -58,11 +62,12 @@
     "role": "Controller",
     "origin": "SCOTLAND",
     "number": "25",
+    "mode": "dark",
     "signature": "Ruse",
     "ultimate": "Not Dead Yet",
-    "accent": "#FF7AC6",
-    "accent2": "#8BE8C4",
-    "background": "#150E15"
+    "accent": "#FF6EC7",
+    "accent2": "#6DF0C2",
+    "background": "#170E18"
   },
   {
     "slug": "cypher",
@@ -71,11 +76,12 @@
     "role": "Sentinel",
     "origin": "MOROCCO",
     "number": "05",
+    "mode": "dark",
     "signature": "Trapwire",
     "ultimate": "Neural Theft",
-    "accent": "#2DD4E8",
-    "accent2": "#8AA4B8",
-    "background": "#081116"
+    "accent": "#2CE2F2",
+    "accent2": "#D8A85A",
+    "background": "#11110E"
   },
   {
     "slug": "deadlock",
@@ -84,11 +90,12 @@
     "role": "Sentinel",
     "origin": "NORWAY",
     "number": "23",
+    "mode": "dark",
     "signature": "GravNet",
     "ultimate": "Annihilation",
-    "accent": "#8FD8E8",
-    "accent2": "#DCE8F0",
-    "background": "#0A1014"
+    "accent": "#7EE2F8",
+    "accent2": "#E2F0F8",
+    "background": "#0D1318"
   },
   {
     "slug": "fade",
@@ -97,11 +104,12 @@
     "role": "Initiator",
     "origin": "TURKIYE",
     "number": "20",
+    "mode": "dark",
     "signature": "Prowler",
     "ultimate": "Nightfall",
-    "accent": "#E2453F",
-    "accent2": "#FF8A5C",
-    "background": "#120A0C"
+    "accent": "#F03E4D",
+    "accent2": "#FF8A54",
+    "background": "#09070B"
   },
   {
     "slug": "gekko",
@@ -110,11 +118,12 @@
     "role": "Initiator",
     "origin": "UNITED STATES",
     "number": "22",
+    "mode": "dark",
     "signature": "Dizzy",
     "ultimate": "Thrash",
-    "accent": "#B8F26B",
-    "accent2": "#2FD8C5",
-    "background": "#0A130B"
+    "accent": "#B8FA4F",
+    "accent2": "#1CE5C8",
+    "background": "#0C140C"
   },
   {
     "slug": "harbor",
@@ -123,11 +132,12 @@
     "role": "Controller",
     "origin": "INDIA",
     "number": "21",
+    "mode": "dark",
     "signature": "Cove",
     "ultimate": "Reckoning",
-    "accent": "#2FD0C8",
-    "accent2": "#4A9FE8",
-    "background": "#061318"
+    "accent": "#28DFD5",
+    "accent2": "#F2C15A",
+    "background": "#061519"
   },
   {
     "slug": "hush",
@@ -136,11 +146,12 @@
     "role": "Duelist",
     "origin": "CHINA",
     "number": "31",
+    "mode": "dark",
     "signature": "Displacement",
     "ultimate": "Suspension",
-    "accent": "#E85BB5",
-    "accent2": "#9D7BFF",
-    "background": "#160B16"
+    "accent": "#F25CC4",
+    "accent2": "#A77BFF",
+    "background": "#150B16"
   },
   {
     "slug": "iso",
@@ -149,11 +160,12 @@
     "role": "Duelist",
     "origin": "CHINA",
     "number": "24",
+    "mode": "dark",
     "signature": "Double Tap",
     "ultimate": "Kill Contract",
-    "accent": "#8C6BFF",
-    "accent2": "#2AE6E0",
-    "background": "#0A091A"
+    "accent": "#8E6BFF",
+    "accent2": "#22F0E8",
+    "background": "#09091A"
   },
   {
     "slug": "jett",
@@ -162,11 +174,12 @@
     "role": "Duelist",
     "origin": "SOUTH KOREA",
     "number": "10",
+    "mode": "light",
     "signature": "Tailwind",
     "ultimate": "Blade Storm",
-    "accent": "#B8F5E8",
-    "accent2": "#7FB8FF",
-    "background": "#0A1216"
+    "accent": "#076DBC",
+    "accent2": "#0B8379",
+    "background": "#EFF5F9"
   },
   {
     "slug": "kayo",
@@ -175,11 +188,12 @@
     "role": "Initiator",
     "origin": "ALTERNATE EARTH",
     "number": "17",
+    "mode": "dark",
     "signature": "ZERO/point",
     "ultimate": "NULL/cmd",
-    "accent": "#3FA9FF",
-    "accent2": "#FF7A3D",
-    "background": "#080F1A"
+    "accent": "#33A8FF",
+    "accent2": "#FF6A2B",
+    "background": "#0A1018"
   },
   {
     "slug": "killjoy",
@@ -188,11 +202,12 @@
     "role": "Sentinel",
     "origin": "GERMANY",
     "number": "04",
+    "mode": "dark",
     "signature": "ALARMBOT",
     "ultimate": "Lockdown",
-    "accent": "#FFD23F",
-    "accent2": "#9BE564",
-    "background": "#10110A"
+    "accent": "#FFD633",
+    "accent2": "#FF4F8B",
+    "background": "#0F121D"
   },
   {
     "slug": "miks",
@@ -201,11 +216,12 @@
     "role": "Controller",
     "origin": "CROATIA",
     "number": "30",
+    "mode": "dark",
     "signature": "M-pulse",
     "ultimate": "Bassquake",
-    "accent": "#6FD8CE",
-    "accent2": "#A78BFA",
-    "background": "#0A1016"
+    "accent": "#4AE8D0",
+    "accent2": "#B07AFF",
+    "background": "#0B0F1A"
   },
   {
     "slug": "neon",
@@ -214,11 +230,12 @@
     "role": "Duelist",
     "origin": "PHILIPPINES",
     "number": "19",
+    "mode": "dark",
     "signature": "High Gear",
     "ultimate": "Overdrive",
-    "accent": "#22E0FF",
-    "accent2": "#FF2E97",
-    "background": "#08111C"
+    "accent": "#00E5FF",
+    "accent2": "#FF2A9D",
+    "background": "#070F1C"
   },
   {
     "slug": "omen",
@@ -227,11 +244,12 @@
     "role": "Controller",
     "origin": "UNKNOWN",
     "number": "03",
+    "mode": "dark",
     "signature": "Dark Cover",
     "ultimate": "From the Shadows",
-    "accent": "#9270E8",
-    "accent2": "#5E94B1",
-    "background": "#0A0912"
+    "accent": "#708CFF",
+    "accent2": "#4CC3D9",
+    "background": "#080A0F"
   },
   {
     "slug": "phoenix",
@@ -240,11 +258,12 @@
     "role": "Duelist",
     "origin": "ENGLAND",
     "number": "09",
+    "mode": "dark",
     "signature": "Curveball",
     "ultimate": "Run it Back",
-    "accent": "#FF7A2F",
-    "accent2": "#FFD166",
-    "background": "#140B06"
+    "accent": "#FF6A1A",
+    "accent2": "#FFD447",
+    "background": "#120A07"
   },
   {
     "slug": "raze",
@@ -253,11 +272,12 @@
     "role": "Duelist",
     "origin": "BRAZIL",
     "number": "12",
+    "mode": "dark",
     "signature": "Boom Bot",
     "ultimate": "Showstopper",
-    "accent": "#FF8A1F",
-    "accent2": "#2BB3B8",
-    "background": "#12100A"
+    "accent": "#FF841F",
+    "accent2": "#20D6C7",
+    "background": "#14100D"
   },
   {
     "slug": "reyna",
@@ -266,11 +286,12 @@
     "role": "Duelist",
     "origin": "MEXICO",
     "number": "11",
+    "mode": "dark",
     "signature": "Devour",
     "ultimate": "Empress",
-    "accent": "#C44BE0",
-    "accent2": "#8B3FD6",
-    "background": "#140A18"
+    "accent": "#DF42F5",
+    "accent2": "#FF7AD4",
+    "background": "#120816"
   },
   {
     "slug": "sage",
@@ -279,11 +300,12 @@
     "role": "Sentinel",
     "origin": "CHINA",
     "number": "07",
+    "mode": "light",
     "signature": "Healing Orb",
     "ultimate": "Resurrection",
-    "accent": "#45D6A5",
-    "accent2": "#BFEFE6",
-    "background": "#071311"
+    "accent": "#0A7C56",
+    "accent2": "#187FA1",
+    "background": "#EEF5F1"
   },
   {
     "slug": "skye",
@@ -292,11 +314,12 @@
     "role": "Initiator",
     "origin": "AUSTRALIA",
     "number": "14",
+    "mode": "dark",
     "signature": "Guiding Light",
     "ultimate": "Seekers",
-    "accent": "#6FD88F",
-    "accent2": "#F2C14E",
-    "background": "#0B120C"
+    "accent": "#5CE084",
+    "accent2": "#F5C443",
+    "background": "#0A140D"
   },
   {
     "slug": "sova",
@@ -305,11 +328,12 @@
     "role": "Initiator",
     "origin": "RUSSIA",
     "number": "06",
+    "mode": "dark",
     "signature": "Recon Bolt",
     "ultimate": "Hunter's Fury",
-    "accent": "#5AA9E6",
-    "accent2": "#9FB8D0",
-    "background": "#08101A"
+    "accent": "#4BB2FF",
+    "accent2": "#E5B85C",
+    "background": "#09111B"
   },
   {
     "slug": "tejo",
@@ -318,11 +342,12 @@
     "role": "Initiator",
     "origin": "COLOMBIA",
     "number": "27",
+    "mode": "dark",
     "signature": "Guided Salvo",
     "ultimate": "Armageddon",
-    "accent": "#E0A84E",
-    "accent2": "#3FBFC0",
-    "background": "#12100A"
+    "accent": "#E8A838",
+    "accent2": "#2EC4B6",
+    "background": "#14100C"
   },
   {
     "slug": "veto",
@@ -331,11 +356,12 @@
     "role": "Sentinel",
     "origin": "SENEGAL",
     "number": "29",
+    "mode": "dark",
     "signature": "Interceptor",
     "ultimate": "Evolution",
-    "accent": "#C2453F",
-    "accent2": "#4FA4B2",
-    "background": "#120B0C"
+    "accent": "#E04842",
+    "accent2": "#48B8C4",
+    "background": "#140B0D"
   },
   {
     "slug": "viper",
@@ -344,11 +370,12 @@
     "role": "Controller",
     "origin": "UNITED STATES",
     "number": "02",
+    "mode": "dark",
     "signature": "Toxic Screen",
     "ultimate": "Viper's Pit",
-    "accent": "#3FE05F",
-    "accent2": "#C8F542",
-    "background": "#07120A"
+    "accent": "#2EE858",
+    "accent2": "#C8FF2E",
+    "background": "#060E08"
   },
   {
     "slug": "vyse",
@@ -357,11 +384,12 @@
     "role": "Sentinel",
     "origin": "UNKNOWN",
     "number": "26",
+    "mode": "dark",
     "signature": "Arc Rose",
     "ultimate": "Steel Garden",
-    "accent": "#7A3FF2",
-    "accent2": "#C24B5A",
-    "background": "#0C0A1A"
+    "accent": "#E24A7A",
+    "accent2": "#8E52FF",
+    "background": "#0D0C14"
   },
   {
     "slug": "waylay",
@@ -370,11 +398,12 @@
     "role": "Duelist",
     "origin": "THAILAND",
     "number": "28",
+    "mode": "light",
     "signature": "Refract",
     "ultimate": "Convergent Paths",
-    "accent": "#A78BFA",
-    "accent2": "#67E8F9",
-    "background": "#0B0C1A"
+    "accent": "#6A3DF5",
+    "accent2": "#057E94",
+    "background": "#F4F1FA"
   },
   {
     "slug": "yoru",
@@ -383,10 +412,11 @@
     "role": "Duelist",
     "origin": "JAPAN",
     "number": "15",
+    "mode": "dark",
     "signature": "Gatecrash",
     "ultimate": "Dimensional Drift",
-    "accent": "#3B5BFF",
-    "accent2": "#D94A3D",
-    "background": "#080C1A"
+    "accent": "#4573FF",
+    "accent2": "#FF3B5C",
+    "background": "#070B19"
   }
 ]

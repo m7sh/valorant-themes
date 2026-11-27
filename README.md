@@ -93,15 +93,32 @@ Only one agent:
 curl -fsSL https://raw.githubusercontent.com/m7sh/valorant-themes/main/bootstrap.sh | bash -s -- jett
 ```
 
+### Uninstall
+
+Remove one, several, or every theme with `uninstall.sh` (or `./install.sh --uninstall` / `--remove`):
+
+```bash
+./uninstall.sh                    # remove every valorant-* theme
+./uninstall.sh jett               # remove one theme
+./uninstall.sh jett reyna viper   # remove several themes
+```
+
+Remote uninstall (updates local cache if present, or clones and removes):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/m7sh/valorant-themes/main/bootstrap.sh | bash -s -- --uninstall jett reyna viper
+```
+
 ### Other installer options
 
 ```bash
-./install.sh --list               # list every agent, role, signature and ultimate
-./install.sh --link jett          # symlink to the repo instead of copying
-./install.sh --remove jett        # remove one theme
-./install.sh --remove all         # remove every valorant-* theme
-./install.sh --force              # reinstall over existing copies
-./install.sh --dry-run            # show what would happen
+./install.sh --list                     # list every agent, role, signature and ultimate
+./install.sh --link jett                # symlink to the repo instead of copying
+./install.sh --uninstall jett           # remove one theme (or --remove)
+./install.sh --uninstall jett reyna     # remove several themes
+./install.sh --uninstall all            # remove every valorant-* theme
+./install.sh --force                    # reinstall over existing copies
+./install.sh --dry-run                  # show what would happen
 ./install.sh --help
 ```
 
@@ -118,38 +135,38 @@ omarchy theme bg next      # cycle that agent's wallpapers
 
 ## The roster
 
-| Agent | Role | Signature | Ultimate | Theme | Accent |
-|---|---|---|---|---|---|
-| **Astra** | Controller | Astral Form | Cosmic Divide | `valorant-astra` | `#A97BFF` |
-| **Breach** | Initiator | Fault Line | Rolling Thunder | `valorant-breach` | `#F59E0B` |
-| **Brimstone** | Controller | Sky Smoke | Orbital Strike | `valorant-brimstone` | `#FF6B2C` |
-| **Chamber** | Sentinel | Rendezvous | Tour De Force | `valorant-chamber` | `#E8C46A` |
-| **Clove** | Controller | Ruse | Not Dead Yet | `valorant-clove` | `#FF7AC6` |
-| **Cypher** | Sentinel | Trapwire | Neural Theft | `valorant-cypher` | `#2DD4E8` |
-| **Deadlock** | Sentinel | GravNet | Annihilation | `valorant-deadlock` | `#8FD8E8` |
-| **Fade** | Initiator | Prowler | Nightfall | `valorant-fade` | `#E2453F` |
-| **Gekko** | Initiator | Dizzy | Thrash | `valorant-gekko` | `#B8F26B` |
-| **Harbor** | Controller | Cove | Reckoning | `valorant-harbor` | `#2FD0C8` |
-| **Hush** | Duelist | Displacement | Suspension | `valorant-hush` | `#E85BB5` |
-| **Iso** | Duelist | Double Tap | Kill Contract | `valorant-iso` | `#8C6BFF` |
-| **Jett** | Duelist | Tailwind | Blade Storm | `valorant-jett` | `#B8F5E8` |
-| **KAY/O** | Initiator | ZERO/point | NULL/cmd | `valorant-kayo` | `#3FA9FF` |
-| **Killjoy** | Sentinel | ALARMBOT | Lockdown | `valorant-killjoy` | `#FFD23F` |
-| **Miks** | Controller | M-pulse | Bassquake | `valorant-miks` | `#6FD8CE` |
-| **Neon** | Duelist | High Gear | Overdrive | `valorant-neon` | `#22E0FF` |
-| **Omen** | Controller | Dark Cover | From the Shadows | `valorant-omen` | `#9270E8` |
-| **Phoenix** | Duelist | Curveball | Run it Back | `valorant-phoenix` | `#FF7A2F` |
-| **Raze** | Duelist | Boom Bot | Showstopper | `valorant-raze` | `#FF8A1F` |
-| **Reyna** | Duelist | Devour | Empress | `valorant-reyna` | `#C44BE0` |
-| **Sage** | Sentinel | Healing Orb | Resurrection | `valorant-sage` | `#45D6A5` |
-| **Skye** | Initiator | Guiding Light | Seekers | `valorant-skye` | `#6FD88F` |
-| **Sova** | Initiator | Recon Bolt | Hunter's Fury | `valorant-sova` | `#5AA9E6` |
-| **Tejo** | Initiator | Guided Salvo | Armageddon | `valorant-tejo` | `#E0A84E` |
-| **Veto** | Sentinel | Interceptor | Evolution | `valorant-veto` | `#C2453F` |
-| **Viper** | Controller | Toxic Screen | Viper's Pit | `valorant-viper` | `#3FE05F` |
-| **Vyse** | Sentinel | Arc Rose | Steel Garden | `valorant-vyse` | `#7A3FF2` |
-| **Waylay** | Duelist | Refract | Convergent Paths | `valorant-waylay` | `#A78BFA` |
-| **Yoru** | Duelist | Gatecrash | Dimensional Drift | `valorant-yoru` | `#3B5BFF` |
+| Agent | Role | Mode | Signature | Ultimate | Theme | Accent |
+|---|---|---|---|---|---|---|
+| **Astra** | Controller | dark | Astral Form | Cosmic Divide | `valorant-astra` | `#B48CFF` |
+| **Breach** | Initiator | dark | Fault Line | Rolling Thunder | `valorant-breach` | `#F59E0B` |
+| **Brimstone** | Controller | dark | Sky Smoke | Orbital Strike | `valorant-brimstone` | `#FF6B2C` |
+| **Chamber** | Sentinel | dark | Rendezvous | Tour De Force | `valorant-chamber` | `#ECC86E` |
+| **Clove** | Controller | dark | Ruse | Not Dead Yet | `valorant-clove` | `#FF6EC7` |
+| **Cypher** | Sentinel | dark | Trapwire | Neural Theft | `valorant-cypher` | `#2CE2F2` |
+| **Deadlock** | Sentinel | dark | GravNet | Annihilation | `valorant-deadlock` | `#7EE2F8` |
+| **Fade** | Initiator | dark | Prowler | Nightfall | `valorant-fade` | `#F03E4D` |
+| **Gekko** | Initiator | dark | Dizzy | Thrash | `valorant-gekko` | `#B8FA4F` |
+| **Harbor** | Controller | dark | Cove | Reckoning | `valorant-harbor` | `#28DFD5` |
+| **Hush** | Duelist | dark | Displacement | Suspension | `valorant-hush` | `#F25CC4` |
+| **Iso** | Duelist | dark | Double Tap | Kill Contract | `valorant-iso` | `#8E6BFF` |
+| **Jett** | Duelist | light | Tailwind | Blade Storm | `valorant-jett` | `#076DBC` |
+| **KAY/O** | Initiator | dark | ZERO/point | NULL/cmd | `valorant-kayo` | `#33A8FF` |
+| **Killjoy** | Sentinel | dark | ALARMBOT | Lockdown | `valorant-killjoy` | `#FFD633` |
+| **Miks** | Controller | dark | M-pulse | Bassquake | `valorant-miks` | `#4AE8D0` |
+| **Neon** | Duelist | dark | High Gear | Overdrive | `valorant-neon` | `#00E5FF` |
+| **Omen** | Controller | dark | Dark Cover | From the Shadows | `valorant-omen` | `#708CFF` |
+| **Phoenix** | Duelist | dark | Curveball | Run it Back | `valorant-phoenix` | `#FF6A1A` |
+| **Raze** | Duelist | dark | Boom Bot | Showstopper | `valorant-raze` | `#FF841F` |
+| **Reyna** | Duelist | dark | Devour | Empress | `valorant-reyna` | `#DF42F5` |
+| **Sage** | Sentinel | light | Healing Orb | Resurrection | `valorant-sage` | `#0A7C56` |
+| **Skye** | Initiator | dark | Guiding Light | Seekers | `valorant-skye` | `#5CE084` |
+| **Sova** | Initiator | dark | Recon Bolt | Hunter's Fury | `valorant-sova` | `#4BB2FF` |
+| **Tejo** | Initiator | dark | Guided Salvo | Armageddon | `valorant-tejo` | `#E8A838` |
+| **Veto** | Sentinel | dark | Interceptor | Evolution | `valorant-veto` | `#E04842` |
+| **Viper** | Controller | dark | Toxic Screen | Viper's Pit | `valorant-viper` | `#2EE858` |
+| **Vyse** | Sentinel | dark | Arc Rose | Steel Garden | `valorant-vyse` | `#E24A7A` |
+| **Waylay** | Duelist | light | Refract | Convergent Paths | `valorant-waylay` | `#6A3DF5` |
+| **Yoru** | Duelist | dark | Gatecrash | Dimensional Drift | `valorant-yoru` | `#4573FF` |
 
 ---
 
@@ -181,18 +198,23 @@ boot logo when the theme is applied to the boot splash.
 
 ## How the colours are chosen
 
-Each agent has a primary **ability accent** and a secondary **ultimate accent**:
+Each agent has a bespoke palette profile in `PALETTE_PROFILES` (`tools/build.py`)
+with a primary **ability accent**, secondary **ultimate accent**, distinct surface
+temperature, and custom 8-hue terminal/syntax ramp (plus crisp **light-mode** palettes
+for **Jett**, **Sage**, and **Waylay**):
 
-- the signature ability sets the accent, cursor, selection and glow colour;
-- the ultimate tints the secondary highlights and the ANSI bright slots;
-- the background is a very dark, hue-shifted version of the same accent;
-- terminal colours keep their semantic meaning (red still reads as red) but are
-  blended 22% toward the agent accent, so errors and diffs stay readable while the
-  whole desktop stays in character.
+- the signature and ultimate accents drive `accent`, `icon_mark`, Hyprland's 45°
+  `active-border` gradient, and `shell.toml` focus/selection/countdown highlights;
+- every agent's terminal and editor colors (`red` through `magenta` and `bright_*`)
+  follow a tailored color harmony with WCAG contrast enforcement against its surface;
+- signature wallpapers feature role-specific vector motifs (kinetic slashes for
+  Duelists, orbital rings for Controllers, tactical reticles for Sentinels, and sonar
+  arcs for Initiators) with window-safe HUD typography.
 
-For example, Viper's toxic green (`#3FE05F`) with acid-yellow ultimate accents
-produces a near-black green desktop, while Chamber's gold (`#E8C46A`) and teal
-(`#4FD1C5`) produce a warm, tailored dark palette.
+For example, Viper pairs chem-lab black (`#060E08`) with toxic green (`#2EE858`) and
+acid chartreuse (`#C8FF2E`), Chamber pairs Parisian navy (`#0C1018`) with champagne
+gold (`#ECC86E`) and arc teal (`#38D9C0`), and Jett switches to an airy cloud-mist
+light palette (`#EFF5F9`) with Tailwind blue (`#076DBC`).
 
 ## Rebuilding or adding an agent
 

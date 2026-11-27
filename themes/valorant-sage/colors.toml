@@ -1,51 +1,61 @@
-mode = "dark"
+mode = "light"
 
-accent = "#45D6A5"
+accent = "#0A7C56"
 
-selection = "#1A4E3D"
+selection = "#C5DFD5"
 
-muted = "#576563"
+muted = "#8E9A95"
 
-background = "#071311"
+background = "#EEF5F1"
 
-dark_background = "#050D0B"
+dark_background = "#E2E9E5"
 
-darker_background = "#030908"
+darker_background = "#D4DAD6"
 
-lighter_background = "#0D2620"
+lighter_background = "#F8FBF9"
 
-foreground = "#D9EAEA"
+foreground = "#14261F"
 
-dark_foreground = "#5F6D6C"
+dark_foreground = "#73807B"
 
-light_foreground = "#E1EFEF"
+light_foreground = "#374741"
 
-bright_foreground = "#F2FCF9"
+bright_foreground = "#0F1C17"
 
-red = "#CA8277"
+selection_foreground = "#14261F"
 
-yellow = "#C4C96C"
+selection_background = "#B7D8CC"
 
-orange = "#C4A35E"
+hyprland_active_border = "rgba(0a7c56ee) rgba(187fa1ee) 45deg"
 
-green = "#66D19A"
+hyprland_inactive_border = "rgba(bec7c3aa)"
 
-cyan = "#52CBCD"
+icon_mark = "#187FA1"
 
-blue = "#62A8EB"
+red = "#C23646"
 
-magenta = "#AA91EB"
+yellow = "#906209"
 
-brown = "#A0785A"
+orange = "#B14D13"
 
-bright_red = "#F39C9B"
+green = "#0A7C56"
 
-bright_yellow = "#F3E39B"
+cyan = "#107788"
 
-bright_green = "#A1EFC0"
+blue = "#1F62A6"
 
-bright_cyan = "#94E9F0"
+magenta = "#813FA6"
 
-bright_blue = "#A2C8FB"
+brown = "#664830"
 
-bright_magenta = "#DDB3FB"
+bright_red = "#943544"
+
+bright_yellow = "#624E16"
+
+bright_green = "#095A46"
+
+bright_cyan = "#0D5B69"
+
+bright_blue = "#195387"
+
+bright_magenta = "#623C8A"

@@ -27,12 +27,15 @@ Usage:
   ./install.sh --list              List agents and their abilities
   ./install.sh --link jett         Symlink instead of copy (repo stays live)
   ./install.sh --remove jett       Remove one theme
+  ./install.sh --remove jett reyna viper  Remove several themes
   ./install.sh --remove all        Remove every valorant-* theme
+  ./uninstall.sh jett reyna viper  Shortcut for multi-agent uninstall
   ./install.sh --set jett          Install and apply the theme
 
 Options:
   -l, --list        List all agent themes
   -r, --remove      Remove the selected themes
+  -u, --uninstall   Alias for --remove
       --link        Symlink theme folders into ~/.config/omarchy/themes
       --set         Apply the first installed theme with `omarchy theme set`
       --force       Overwrite an existing theme (copy mode)
@@ -96,7 +99,7 @@ while (($#)); do
   case "$1" in
     -h|--help) usage; exit 0 ;;
     -l|--list) list_agents; exit 0 ;;
-    -r|--remove) MODE=remove; shift ;;
+    -r|--remove|-u|--uninstall) MODE=remove; shift ;;
     --link) LINK=1; shift ;;
     --set) SET_THEME=1; shift ;;
     --force) FORCE=1; shift ;;
@@ -177,6 +180,7 @@ if [[ $MODE == install ]]; then
     printf 'Apply one with:  omarchy theme set valorant-%s\n' "${installed[0]}"
   fi
 else
+  removed=0
   for slug in "${FINAL[@]}"; do
     dst="$DEST/valorant-$slug"
     if [[ -e $dst || -L $dst ]]; then
@@ -186,8 +190,13 @@ else
         rm -rf "$dst"
         printf 'removed %s\n' "valorant-$slug"
       fi
+      ((removed += 1))
     else
       printf 'not installed: valorant-%s\n' "$slug"
     fi
   done
+
+  if [[ $DRY_RUN -eq 0 ]]; then
+    printf '\nRemoved %d theme(s) from %s\n' "$removed" "$DEST"
+  fi
 fi

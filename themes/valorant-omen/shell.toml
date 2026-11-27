@@ -1,19 +1,126 @@
-# Agent-accent overrides; Omarchy fills every other key from colors.toml.
+# Agent-tailored Omarchy shell surface tokens.
 
 [bar]
-active           = "#9270E8"
-background       = "#0A0912"
-background-alpha = 0.94
-text             = "#E0E0F1"
+background       = "#080A0F"
+background-alpha = 0.92
+text             = "#E2E8F2"
+active           = "#708CFF"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
 
 [hyprland]
-active-border            = "#9270E8 #5E94B1 90deg"
-active-border-foreground = "#E0E0F1"
+active-border            = "#708CFF #4CC3D9 45deg"
+active-border-foreground = "#E2E8F2"
 
 [controls]
-hover-cursor-border = "#9270E8"
-hover-cursor-color  = "#E0E0F1"
-focus-border        = "#9270E8"
-focus-color         = "#E0E0F1"
-selected-color      = "#E0E0F1"
-selected-border     = "#9270E8"
+normal-color        = "#E2E8F2"
+normal-fill-alpha   = 0.04
+normal-border       = "#64676E"
+normal-border-width = 1
+normal-border-alpha = 0.45
+
+hover-cursor-color        = "#E2E8F2"
+hover-cursor-fill-alpha   = 0.10
+hover-cursor-border       = "#708CFF"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.70
+
+focus-color        = "#E2E8F2"
+focus-fill-alpha   = 0.12
+focus-border       = "#4CC3D9"
+focus-border-width = 1
+focus-border-alpha = 0.80
+
+selected-color        = "#E2E8F2"
+selected-fill-alpha   = 0.22
+selected-border       = "#708CFF"
+selected-border-width = 1
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.24
+selection-fill-alpha = 0.35
+
+[popups]
+background       = "#080A0F"
+background-alpha = 0.96
+text             = "#E2E8F2"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = 2
+
+[tooltip]
+background       = "#080A0F"
+background-alpha = 0.97
+text             = "#E2E8F2"
+border           = "#4CC3D9"
+border-alpha     = 0.85
+
+[notifications]
+background       = "#080A0F"
+background-alpha = 0.97
+text             = "#E2E8F2"
+border           = "hyprland.active-border"
+border-alpha     = 1.0
+border-width     = 2
+countdown        = "#4CC3D9"
+
+[launcher]
+background                = "#080A0F"
+background-alpha          = 0.95
+text                      = "#E2E8F2"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#040407"
+scrim-alpha               = 0.58
+selected-background       = "#708CFF"
+selected-background-alpha = 0.16
+selected-text             = "#708CFF"
+selected-border           = "hyprland.active-border"
+selected-border-alpha     = 0.60
+
+[menu]
+background                = "#080A0F"
+background-alpha          = 0.98
+text                      = "#E2E8F2"
+border                    = "hyprland.active-border"
+border-alpha              = 1.0
+scrim                     = "#040407"
+scrim-alpha               = 0.58
+selected-background       = "#708CFF"
+selected-background-alpha = 0.16
+selected-text             = "#708CFF"
+selected-border           = "hyprland.active-border"
+selected-border-alpha     = 0.60
+
+[polkit]
+background   = "#080A0F"
+background-alpha = 0.98
+text         = "#E2E8F2"
+text-error   = "#D46B84"
+border       = "hyprland.active-border"
+border-error = "#D46B84"
+border-alpha = 1.0
+scrim        = "#040407"
+scrim-alpha  = 0.58
+accent       = "#708CFF"
+
+[lock]
+background       = "#080A0F"
+background-alpha = 0.85
+text             = "#E2E8F2"
+placeholder      = "#7E828A"
+text-error       = "#D46B84"
+border           = "hyprland.active-border"
+border-active    = "#4CC3D9"
+border-error     = "#D46B84"
+border-alpha     = 1.0
+selection        = "#708CFF"
+selection-alpha  = 0.40
+
+[image-picker]
+text                    = "#E2E8F2"
+selected-border         = "#708CFF"
+selected-border-alpha   = 1.0
+unselected-border       = "#64676E"
+unselected-border-alpha = 0.35
